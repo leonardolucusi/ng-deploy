@@ -1,0 +1,19 @@
+.center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.home {
+    background-color: aquamarine;
+    width: 90vw;
+    height: 95vh;
+    margin-top: 5vh;
+    border: 1px solid black;
+}

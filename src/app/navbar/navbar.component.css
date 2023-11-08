@@ -1,0 +1,39 @@
+.navbar {
+    display: grid;
+    position: fixed;
+    background-color: #5f9ea0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: start;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5vh;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    right: 0;
+    left: 0;
+}
+
+.parent>div {
+    list-style-type: none;
+    justify-self: center;
+    align-self: center;
+}
+
+.parent>div:nth-child(1) {
+    background-color: blue;
+}
+
+.parent>div:nth-child(2) {
+    background-color: brown;
+}
+
+.parent>div:nth-child(3) {
+    background-color: chocolate;
+}
