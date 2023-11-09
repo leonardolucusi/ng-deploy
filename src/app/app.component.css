@@ -1,19 +1,12 @@
-.center-all {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid-container {
+.main-items {
+    max-width: 1128px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 100vh 100vh 100vh;
 }
 
-.home {
-    background-color: aquamarine;
-    width: 90vw;
-    height: 95vh;
-    margin-top: 5vh;
-    border: 1px solid black;
+.items {
+    /* must be equal to navbar height*/
+    margin-top: 3rem;
 }
