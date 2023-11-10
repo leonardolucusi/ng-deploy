@@ -1,6 +1,94 @@
 .main-home {
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(25%, 1fr));
+}
 
-    background-color: aqua;
+.generic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+/* NAME */
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name :nth-child(1) {
+    font-size: 48px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.name :nth-child(2) {
+    font-size: 20px;
+    color: var(--small-font-size-color);
+}
+
+
+
+@media (max-width:350px) {
+    .name :nth-child(1) {
+        padding-right: 10px;
+    }
+}
+
+/* STACK */
+.stacks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stacks.generic>div:nth-child(1) {
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:430px) {
+    .stacks.generic>div:nth-child(2) {
+        padding-left: 30px;
+    }
+}
+
+
+.netcore-stack {
+    width: 55px;
+    height: 55px;
+}
+
+.unity-stack {
+    width: 60px;
+    height: 60px;
+}
+
+.stack-images {
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact>div:first-child {
+    font-size: 42px;
+}
+
+.linkedin-image {
+    width: 48px;
+    height: 48px;
+}
+
+.github-image {
+    width: 50px;
+    height: 50px;
 }
