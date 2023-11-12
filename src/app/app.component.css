@@ -4,12 +4,14 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1000px 1000px 1000px;
-    opacity: 0.85;
+    grid-template-rows: 1000px auto 300px;
+}
 
+.portfolio {
+    display: flex;
+    flex-direction: column;
 }
 
 .items {
-    /* must be equal to navbar height*/
     margin-top: 3rem;
 }
