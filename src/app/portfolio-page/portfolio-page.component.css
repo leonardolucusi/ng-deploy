@@ -1,0 +1,17 @@
+.main-items {
+    max-width: 1128px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1000px auto 300px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    margin-top: 3rem;
+}
