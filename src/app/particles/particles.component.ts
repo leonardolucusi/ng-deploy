@@ -1,8 +1,6 @@
-// particle-container.component.ts
-
 import { Component, OnInit, HostListener  } from '@angular/core';
 
-declare var particlesJS: any; // Declare particlesJS to avoid TypeScript errors
+declare var particlesJS: any;
 
 @Component({
   selector: 'app-particles',
@@ -14,12 +12,13 @@ export class ParticlesComponent implements OnInit {
   ngOnInit(): void {
     this.initializeParticles();
   }
+  readonly numberOfParticles: number = 150;
 
   private initializeParticles(): void {
     particlesJS('particles-js', {
       particles: {
         number: {
-          value: 160,
+          value: this.numberOfParticles,
           density: {
             enable: true,
             value_area: 800
@@ -65,10 +64,10 @@ export class ParticlesComponent implements OnInit {
         },
         line_linked: {
           enable: true,
-          distance: 100,
+          distance: 150,
           color: '#FFFFFF',
-          opacity: 0.4,
-          width: 2
+          opacity: 0.5,
+          width: 1.6
         },
         move: {
           enable: true,
@@ -128,23 +127,3 @@ export class ParticlesComponent implements OnInit {
     });
   }
 }
-// import { OnInit, Component } from '@angular/core';
-// import 'particles.js';
-
-// declare var particlesJS: any;
-
-// @Component({
-//   selector: 'app-particles',
-//   template: '<div id="particles-js"></div>',
-//   styleUrls: ['./particles.component.css']
-// })
-// export class ParticlesComponent implements OnInit {
-
-//     ngOnInit(): void {
-//       particlesJS('particles-js', {
-//         // Your particles.js configuration here
-//       });
-//   }
-
-
-// }
