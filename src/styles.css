@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(0, 0, 0)
-}
+}   
 
 * { 
     font-family: 'Cinzel', serif;
@@ -17,5 +17,21 @@ body {
 
 div {
     /* border: 1px solid rgb(248, 12, 12);   */
+}   
+
+::-webkit-scrollbar {
+    width: 12px;
+    /* Set the width of the scrollbar */
 }
 
+::-webkit-scrollbar-thumb {
+    background-color: #4caf50;
+    /* Set the color of the thumb */
+    border-radius: 6px;
+    /* Set the border radius of the thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Set the color of the track */
+}
