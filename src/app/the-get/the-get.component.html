@@ -1,1 +1,11 @@
-<p>the-get works!</p>
+<div *ngFor="let item of apiData">
+    <div>
+        {{ item?.name }}
+        {{ item?.level }}
+    </div>
+</div>
+<br>
+<div *ngIf="apiData">
+    <!-- {{ apiData[0]?.name }} -->
+    Total Players: {{apiData.length}}
+</div>

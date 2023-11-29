@@ -10,6 +10,7 @@ import { ParticlesComponent } from './particles/particles.component';
 import { TestingpageComponent } from './testingpage/testingpage.component';
 import { PortfolioPageComponent } from './portfolio-page/portfolio-page.component';
 import { TheGetComponent } from './the-get/the-get.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,8 +25,9 @@ import { TheGetComponent } from './the-get/the-get.component';
     TheGetComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
