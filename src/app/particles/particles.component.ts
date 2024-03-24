@@ -21,7 +21,7 @@ export class ParticlesComponent implements OnInit {
           value: this.numberOfParticles,
           density: {
             enable: true,
-            value_area: 800
+            value_area: 5000
           }
         },
         color: {

@@ -1,25 +1,51 @@
 .my-project {
-    font-size: 64px;
-    text-align: center;
+  font-size: 64px;
+  text-align: center;
 }
 
-.main-portfolio {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.main-portfolio-containers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image-and-description-container {
+  min-width: 500px;
+  width: 1000px;
+  height: 500px;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.image-container {
+  min-width: 250px;
+  width: 500px;
+  height: 500px;
+  text-align: right;
+  background: url(../../assets/image-placeholder.jpg) no-repeat center center;
+  background-size: cover;
+}
+.description-container {
+  min-width: 250px;
+  width: 500px;
 }
 
-.main-portfolio div {
-    min-width: 300px;
-    height: 245px;
-    margin: 30px;
+@media (max-width: 400px) {
+  .image-and-description-container {
+    flex-direction: column;
+    width: 250px;
+    height: 1000px;
+  }
 
-    box-shadow: 0px 0px 20px 1px rgb(255, 255, 255);
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 20px;
+  .image-container {
+    width: auto;
+  }
 
-    background: url(../../assets/image-placeholder.jpg) no-repeat center center;
-    background-size: cover;
+  .description-container {
+    width: auto;
+  }
 }
-
-.main-portfolio>div:nth-child(1) {}
