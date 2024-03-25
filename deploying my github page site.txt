@@ -1,4 +1,4 @@
 ng build --output-path docs --base-href /ng-deploy/
 
-change in the index.html 
+change the index.html from deploy file
 <base href="/ng-deploy/">
