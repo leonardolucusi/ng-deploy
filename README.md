@@ -1,3 +1,6 @@
+# Npm Install
+Run the command "npm install" in the console. "npm install" is a command used in Node.js to install all dependencies listed in the project's "package.json" file.
+
 # NgDeploy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
