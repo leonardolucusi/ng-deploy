@@ -12,7 +12,7 @@ export class ParticlesComponent implements OnInit {
   ngOnInit(): void {
     this.initializeParticles();
   }
-  readonly numberOfParticles: number = 150;
+  readonly numberOfParticles: number = 300;
 
   private initializeParticles(): void {
     particlesJS('particles-js', {
