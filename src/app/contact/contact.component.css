@@ -1,0 +1,66 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    /* background: linear-gradient(to right,white 50%, rgb(0, 0, 0) 50%, rgb(255, 255, 255) ); */
+}
+
+.contact>div:first-child {
+    font-size: 42px;
+    color:black;
+}
+
+/* @keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes descaleAnimation {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+} */
+
+.linkedin-image {
+    padding-top: 2px;
+    width: 50px;
+    height: 50px;
+    animation: descaleAnimation 0.3s ease;
+}
+
+.linkedin-image:hover {
+    animation: scaleAnimation 0.3s ease forwards;
+}
+
+.github-image {
+    padding-left: 100px;
+    padding-top: 2px;
+    width: 50px;
+    height: 50px;
+    animation: descaleAnimation 0.3s ease;
+}
+
+.github-image:hover {
+
+    animation: scaleAnimation 0.3s ease forwards;
+}
+
+@media (max-width: 400px) {
+    .contact {
+      width: 100%;
+    }
+  }

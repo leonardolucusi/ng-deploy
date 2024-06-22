@@ -11,6 +11,7 @@ import { TestingpageComponent } from './testingpage/testingpage.component';
 import { PortfolioPageComponent } from './portfolio-page/portfolio-page.component';
 import { TheGetComponent } from './the-get/the-get.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     ParticlesComponent,
     TestingpageComponent,
     PortfolioPageComponent,
-    TheGetComponent
+    TheGetComponent,
+    ContactComponent
   ],
   imports: [
     HttpClientModule,
