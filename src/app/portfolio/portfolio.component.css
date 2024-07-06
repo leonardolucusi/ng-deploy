@@ -42,14 +42,6 @@
   overflow-y: scroll; 
   max-height: 720px; 
 }
-.description-container p:first-of-type { 
-  text-align: center; 
-  font-size: 1.6em;
-  font-weight: bold;
-  background: linear-gradient(to right, #ff7e5f, #746dda);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .description-container p:not(:first-of-type) {
   padding-left: 50px;
   padding-right: 10px;
@@ -58,7 +50,7 @@
   .image-and-description-container {
     flex-direction: column;
     width: 250px;
-    height: 1500px;
+    height: 1440px;
   }
   .image-container {
     width: auto;
@@ -68,17 +60,55 @@
   }
 }
 .description-concept-title{
-  font-size: 28px;
-  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight:bolder;
   border-left: 5px solid white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .description-subtitle{
   font-size: 25px;
   font-weight: bold;
   border-top: 1px solid white;
-  border-bottom: 1px solid white; border-left: 5px solid white;
+  border-bottom: 1px solid white; 
+  border-left: 5px solid white;
 }
 .description-text{
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 23px;
-  color: rgb(231, 231, 231); border-left: 5px solid white;
+  color: rgb(0, 0, 0); 
+  border-left: 5px solid white;
+  background-color: #ffffff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.microshop-title{
+  text-align: center; 
+  font-size: 3em;
+  font-weight: bold;
+  background: linear-gradient(to right, #ffffff, #686868);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.proapp-title{
+  text-align: center; 
+  font-size: 3em;
+  font-weight: bold;
+  background: linear-gradient(to right, #ffffff, #534f1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.notesapi-title{  
+  text-align: center; 
+  font-size: 3em;
+  font-weight: bold;
+  background: linear-gradient(to right, #ffffff, #d0a37b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
