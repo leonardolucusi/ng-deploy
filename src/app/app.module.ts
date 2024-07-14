@@ -12,6 +12,7 @@ import { PortfolioPageComponent } from './portfolio-page/portfolio-page.componen
 import { TheGetComponent } from './the-get/the-get.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactComponent } from './contact/contact.component';
     TestingpageComponent,
     PortfolioPageComponent,
     TheGetComponent,
-    ContactComponent
+    ContactComponent,
+    CarouselComponent
   ],
   imports: [
     HttpClientModule,
