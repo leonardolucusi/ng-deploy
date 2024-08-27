@@ -9,30 +9,29 @@
 }
 .image-and-description-container {
   min-width: 500px;
-  width: 1000px;
-  height: 720px;
+  width: 500px;
+  height: 475px;
   margin: 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
   box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
-  border: 5px solid rgb(255, 255, 255);
   border-radius: 10px;
 }
 .image-container {
-  min-width: 250px;
-  width: 500px;
-  height:  720px;
+  width: 30px;
+  height:  30px;
   text-align: center;
   /* background: url(../../assets/image-placeholder.jpg) no-repeat center center; */
   background-size: cover;
+
 }
 .image1 {
   width: 100%;
   height: 100%;
   /* background: url(assets/pro-app-login-page.png) no-repeat center center; */
-  background-size: cover;
+  background-size: cover;  
+  border-radius: 10px;
 }
 .description-container {
   min-width: 250px;
@@ -42,7 +41,7 @@
   max-height: 720px; 
 }
 .description-container p:not(:first-of-type) {
-  padding-left: 50px;
+  padding-left: 10px;
   padding-right: 10px;
 }
 @media (max-width: 400px) {
@@ -58,46 +57,46 @@
     width: auto;
   }
 }
-.description-concept-title{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 30px;
-  font-weight:bolder;
-  border-left: 5px solid white;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
 .description-subtitle{
-  font-size: 25px;
-  font-weight: bold;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white; 
-  border-left: 5px solid white;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-left:0.5em;
+  font-size: 1.1em;
+  /* background-color: #9797970a; */
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 255, 255, 255, 1 rgb(0, 0, 0);
+}
+.description-text-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .description-text{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 23px;
-  color: rgb(0, 0, 0); 
-  border-left: 5px solid white;
-  background-color: #ffffff;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: #dadada7c;
+  border-radius: 10px;
+  margin-left:0.5em;
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  box-shadow: 255, 255, 255, 0.5 rgb(0, 0, 0);
 }
-
+/* TITLES */
 .microshop-title{
   text-align: center; 
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
-  background: linear-gradient(to right, #ffffff, #686868);
+  background: linear-gradient(to right, #2c5c6e, #41ddd0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .proapp-title{
   text-align: center; 
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   background: linear-gradient(to right, #ffffff, #534f1c);
   -webkit-background-clip: text;
@@ -105,7 +104,7 @@
 }
 .notesapi-title{  
   text-align: center; 
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   background: linear-gradient(to right, #ffffff, #d0a37b);
   -webkit-background-clip: text;
